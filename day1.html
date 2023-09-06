@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sambit</title>
+    <link rel="stylesheet" href="index.js">
+    <style>
+        .loginbox {
+            height: 350px;
+            width: 450px;
+            padding: 25px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+            }
+        input[type='email'],input[type='password'] {
+            display: block;
+            height: 40px;
+            width: 100%;
+            margin-bottom: 20px;
+            margin-top: 0px;
+
+        }
+        img{
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+        h1{
+            text-align: center;
+            padding: 0%;
+            margin: 10px;
+
+        }
+        input[type='submit']{
+            width: 100%;
+            height: 35px;
+            background-color: blue;
+            font-size: 16px;
+            border-color: blue;
+            color: white;
+            display: inline-block;
+            border-radius: 4%;
+            margin-top: 2%;        
+        }
+        
+        .anc{
+            position: relative;
+            left: 30%;
+        }
+        h4{
+            margin: 64px 0px 34px;
+            font: 14px robot;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+<body>
+   
+   <div class="loginbox">
+       <div>
+        <img class="img" src="img/b.jpg" alt="image not found">
+        <h1>Sign in</h1>
+        <br>
+        
+        <input type="email" id="Email" placeholder="Email Address *" required>
+        
+        <input type="password" id="Password" placeholder="Password *" required>
+        
+        
+        <input type="checkbox" id="Checkbox" name="remember me"> Remember me
+        
+        
+        <input type="submit" value="SIGN IN">
+    <br><br>
+    
+    <a href="#">Forgot password</a>
+    <a href="#" class="anc">Don't have an account? Sign up</a>
+    </div>
+    
+    <footer>
+        <h4>Copyright &nbsp; &copy; &nbsp; your website &nbsp; 2023 &nbsp;</h4>
+    </footer>
+       
+
+
+   </div>
+    
+</body>
+
+</html>
